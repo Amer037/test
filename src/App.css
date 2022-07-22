@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+  height: auto;
+  width: 400px;
+  background-color: antiquewhite;
+  box-shadow: 7px 7px 7px 7px rgb(227, 223, 223);
+  top: 100px;
+  position: relative;
+}
+.error {
+  color: red;
+}
+
+.input {
+  height: 25px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+  font-size: large;
+  text-align: center;
+}
+.btn {
+  height: 25px;
+  border-radius: 5px;
+  width: 75px;
+  margin: 10px;
+  padding: 3px;
+  font-size: large;
+  text-align: center;
+  background-color: rgb(198, 188, 138);
+}
+.select-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  padding: 2px;
+  margin-bottom: 12px;
+}
+.button {
+  background: rgb(210, 192, 156);
+  font-size: 20px;
+  margin: 5px;
+  width: 45%;
+}
+.selected {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(210, 192, 156);
+  font-size: 22px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.options-container {
+  display: inline-block;
+}
+
+.options {
+  display: flex;
+  width: 50%;
+  font-size: 20px;
+}
+.options:hover {
+  background: rgb(210, 192, 156);
+}
+.search-input {
+  margin-top: 12px;
+  font-size: 22px;
+}
+.option-button {
+  font-size: 19px;
+  border-radius: 5px;
+  background: rgb(210, 192, 156);
+  border: none;
+  margin: 10px;
+}
